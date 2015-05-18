@@ -2,26 +2,36 @@ html{
 	width:	100%;
 	height:100%;
 }
-ul {
+ul, p {
 	font-family: 'Oswald', sans-serif;
 }
 p{
 	color:gray;
+	font-size:10px;
 }
 .navegacion-inicio{
 	position: fixed;
 	width:100%;
 	background-color: #FFFFFF;
 	border-color: transparent;
-	border-bottom: 2px solid gray;
 	margin-bottom: 0px;
 	border-radius:0px;
-	// .uni-name{
-	// 	font-weight: bold;
-	// }
 	.barra-superior-universidad{
+		padding: 0px;
+		.barra-menu-inicio{
+			width: 8%;
+			text-align: center;
+			border-bottom: 1px solid gray;
+			.iconos-horizontales{
+				text-align: center;
+				img{
+					width: 55%;
+				}
+			}
+		}
 		.barra-menu{
 			width: 5%;
+			margin: 0px 35px;
 		}
 			a{
 				img{
@@ -29,14 +39,30 @@ p{
 				}
 
 			}
-	
+		.menu-nav{
+			border-bottom:2px solid gray;
+		}
+		.iconos-principales-nav{
+			width: 90%;
+		 // 	.border-bottom{
+		 // 		border-bottom: 1px solid gray;
+  	// 			width: 87%;
+  	// 			left: 126px;
+  	// 			position: relative;
+		 // }
+		}
+	}
+	.barra-horizontal{
+		img{
+			width: 110%;
+		}
 	}
 }
 
 .nav-vertical{
 	position: fixed;
 	float:	left;
-	top:60px;
+	top:19.5%;
 	width:8%;
 	.iconos-laterales{
 		border-bottom: 1px solid gray;
@@ -55,8 +81,8 @@ p{
 
 .content-group{
 	// display: flex;
-  	position: relative;
-  	top: 80px;
+  	// position: relative;
+  	// top: 80px;
   	left: 90px;
   	.content-principal{
   		display: flex;
