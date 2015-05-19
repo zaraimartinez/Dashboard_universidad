@@ -5692,6 +5692,11 @@ p {
   top: 166px;
   width: 104px;
   background-color: white; }
+  .nav-vertical .fa-home:before {
+    content: "\f015";
+    color: gray;
+    font-size: 50px;
+    padding: 0px 16px; }
   .nav-vertical ul li {
     margin-top: 0px; }
   .nav-vertical .iconos-laterales {
@@ -5709,10 +5714,38 @@ p {
   margin-right: 0px;
   padding-top: 208px;
   background: #f4f3f5; }
-.informes .col-md-5.informes-contenido h2,
-.informes .col-md-2.informes-contenido h2 {
+  .informes .informes-intro .campos-informes {
+    background-color: #7c7c7c;
+    margin-left: 0px;
+    margin-right: 0px; }
+    .informes .informes-intro .campos-informes p {
+      color: white; }
+
+.col-md-5.informes-contenido h2,
+.col-md-2.informes-contenido h2 {
   font-size: 18px;
   color: gray; }
+
+.informes-contenido .horario {
+  background-color: white; }
+  .informes-contenido .horario .horario-content {
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: 1px solid #e1e1e1; }
+    .informes-contenido .horario .horario-content .horario-content-am {
+      top: 5px;
+      border-right: 1px solid #e1e1e1;
+      line-height: 27px; }
+      .informes-contenido .horario .horario-content .horario-content-am p {
+        font-size: 12px;
+        margin: 0px; }
+    .informes-contenido .horario .horario-content .horario-content-am-salon {
+      top: 5px;
+      border-left: 1px solid #e1e1e1;
+      line-height: 27px; }
+      .informes-contenido .horario .horario-content .horario-content-am-salon p {
+        font-size: 12px;
+        margin: 0px; }
 
 hr {
   position: relative;

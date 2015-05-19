@@ -93,6 +93,12 @@ p{
 	top:166px;
 	width:104px;
 	background-color:white;
+		.fa-home:before {
+	 		 content: "\f015";
+	  		color: gray;
+	  		font-size: 50px;
+	  		padding: 0px 16px;
+	}
 	ul{
 		li{
 			margin-top: 0px;
@@ -101,6 +107,7 @@ p{
 	.iconos-laterales{
 		border-bottom: 1px solid gray;
   		border-radius: 0px;
+  		
 		img{
 			width: 72%;
 			display: block;
@@ -118,6 +125,15 @@ p{
 		margin-right: 0px;
 		padding-top: 208px;
   		background: #f4f3f5;
+  		.campos-informes{
+  			background-color: rgb(124, 124, 124);
+  			margin-left: 0px;
+ 			margin-right: 0px;
+ 			p{
+ 				color:white;
+ 			}
+			}
+  		}
 	}
 
 	.col-md-5.informes-contenido,
@@ -129,9 +145,36 @@ p{
 		}
 		
 	}
-
+.informes-contenido{
+	.horario{
+		background-color:white;
+		.horario-content{
+			margin-left: 0px; 
+  			margin-right: 0px;
+		  	border-bottom: 1px solid rgb(225, 225, 225);
+		  	.horario-content-am{
+		  		top:5px;
+		  		border-right:1px solid rgb(225, 225, 225);
+		  		line-height: 27px;
+		  		p{
+		  			font-size: 12px;
+		  			margin:0px;
+		  		}
+		  	}
+		  	.horario-content-am-salon{
+		  		top:5px;
+		  		border-left:1px solid rgb(225, 225, 225);
+				line-height: 27px;
+		  		p{
+		  			font-size: 12px;
+		  			margin:0px;
+		  		}
+		  	}
+		}
+	}
 
 }
+
 
 // .border-bottom{
 // 	width:50%;
