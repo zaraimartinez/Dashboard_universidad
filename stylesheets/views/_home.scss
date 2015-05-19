@@ -22,13 +22,43 @@ p{
 			width: 8%;
 			text-align: center;
 			border-bottom: 1px solid gray;
-			.iconos-horizontales{
-				text-align: center;
-				img{
-					width: 55%;
-				}
-			}
 		}
+			.navbar-header.barra-menu-inicio-2{
+				width: 90%;
+				border-bottom: 1px solid gray;
+  				margin-left: 22px;
+  				background-color: rgb(244, 243, 245);
+				p{
+					text-align: center;
+				}
+			  	.barra-menu-inicio-2{ 
+			  		display: flex;
+			  		width: 8%;
+					text-align: center;
+					border-bottom: 1px solid gray;
+			  	}
+				.content-group{
+					width: 33%;
+					a img{
+						border-radius: 50%;
+						width: 22%;
+						border: 5px solid red;
+					}
+					p{
+						font-size: 40px;
+					}
+				}		
+						
+			}
+			.fa {
+				margin: 20px 0px;
+			}
+			.fa-home:before {
+					content: "\f015";
+					color: gray;
+					font-size: 50px;
+					padding: 0px 30px;
+			}
 		.barra-menu{
 			width: 5%;
 			margin: 0px 35px;
@@ -62,7 +92,7 @@ p{
 .nav-vertical{
 	position: fixed;
 	float:	left;
-	top:19.5%;
+	top:23.7%;
 	width:8%;
 	.iconos-laterales{
 		border-bottom: 1px solid gray;
@@ -79,18 +109,3 @@ p{
 	}
 }
 
-.content-group{
-	// display: flex;
-  	// position: relative;
-  	// top: 80px;
-  	left: 90px;
-  	.content-principal{
-  		display: flex;
-  	}
-  	.profile{
-  		img{
-  			width: 30%;
-  			border-radius: 50%;
-  		}
-  	}
-}

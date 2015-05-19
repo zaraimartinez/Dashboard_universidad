@@ -5646,10 +5646,33 @@ p {
       width: 8%;
       text-align: center;
       border-bottom: 1px solid gray; }
-      .navegacion-inicio .barra-superior-universidad .barra-menu-inicio .iconos-horizontales {
+    .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 {
+      width: 90%;
+      border-bottom: 1px solid gray;
+      margin-left: 22px;
+      background-color: #f4f3f5; }
+      .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 p {
         text-align: center; }
-        .navegacion-inicio .barra-superior-universidad .barra-menu-inicio .iconos-horizontales img {
-          width: 55%; }
+      .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .barra-menu-inicio-2 {
+        display: flex;
+        width: 8%;
+        text-align: center;
+        border-bottom: 1px solid gray; }
+      .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group {
+        width: 33%; }
+        .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group a img {
+          border-radius: 50%;
+          width: 22%;
+          border: 5px solid red; }
+        .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group p {
+          font-size: 40px; }
+    .navegacion-inicio .barra-superior-universidad .fa {
+      margin: 20px 0px; }
+    .navegacion-inicio .barra-superior-universidad .fa-home:before {
+      content: "\f015";
+      color: gray;
+      font-size: 50px;
+      padding: 0px 30px; }
     .navegacion-inicio .barra-superior-universidad .barra-menu {
       width: 5%;
       margin: 0px 35px; }
@@ -5665,7 +5688,7 @@ p {
 .nav-vertical {
   position: fixed;
   float: left;
-  top: 19.5%;
+  top: 23.7%;
   width: 8%; }
   .nav-vertical .iconos-laterales {
     border-bottom: 1px solid gray;
@@ -5677,13 +5700,5 @@ p {
     .nav-vertical .iconos-laterales p {
       text-align: center;
       font-size: 10px; }
-
-.content-group {
-  left: 90px; }
-  .content-group .content-principal {
-    display: flex; }
-  .content-group .profile img {
-    width: 30%;
-    border-radius: 50%; }
 
 /*# sourceMappingURL=main.css.map */
