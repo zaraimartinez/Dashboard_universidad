@@ -5690,7 +5690,7 @@ p {
   position: fixed;
   float: left;
   top: 166px;
-  width: 104px;
+  width: 103px;
   background-color: white; }
   .nav-vertical .fa-home:before {
     content: "\f015";
@@ -5719,7 +5719,12 @@ p {
     margin-left: 0px;
     margin-right: 0px; }
     .informes .informes-intro .campos-informes p {
-      color: white; }
+      color: white;
+      text-align: center; }
+
+.col-md-4.informes-contenido {
+  padding-right: 0px;
+  left: 15px; }
 
 .col-md-5.informes-contenido h2,
 .col-md-2.informes-contenido h2 {
@@ -5738,14 +5743,31 @@ p {
       line-height: 27px; }
       .informes-contenido .horario .horario-content .horario-content-am p {
         font-size: 12px;
-        margin: 0px; }
+        margin: 0px;
+        text-align: center; }
     .informes-contenido .horario .horario-content .horario-content-am-salon {
       top: 5px;
       border-left: 1px solid #e1e1e1;
       line-height: 27px; }
       .informes-contenido .horario .horario-content .horario-content-am-salon p {
         font-size: 12px;
-        margin: 0px; }
+        margin: 0px;
+        text-align: center; }
+    .informes-contenido .horario .horario-content .horario-content-proceso p {
+      margin: 0px;
+      padding: 5px 0px 5px; }
+    .informes-contenido .horario .horario-content .horario-content-am-space {
+      height: 37px; }
+    .informes-contenido .horario .horario-content .col-md-6.horario-content-am-p {
+      top: 5px; }
+      .informes-contenido .horario .horario-content .col-md-6.horario-content-am-p p {
+        border-right: 1px solid #e1e1e1; }
+    .informes-contenido .horario .horario-content .horario-content-am-s {
+      top: 10px; }
+      .informes-contenido .horario .horario-content .horario-content-am-s p {
+        font-size: 12px;
+        margin: 0px;
+        text-align: center; }
 
 hr {
   position: relative;
