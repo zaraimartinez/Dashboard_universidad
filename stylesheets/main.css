@@ -5647,9 +5647,8 @@ p {
       text-align: center;
       border-bottom: 1px solid gray; }
     .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 {
-      width: 90%;
+      width: 92%;
       border-bottom: 1px solid gray;
-      margin-left: 22px;
       background-color: #f4f3f5; }
       .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 p {
         text-align: center; }
@@ -5663,9 +5662,11 @@ p {
         .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group a img {
           border-radius: 50%;
           width: 22%;
-          border: 5px solid red; }
+          border: 6px solid white;
+          margin-top: 12px; }
         .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group p {
-          font-size: 40px; }
+          font-size: 40px;
+          margin-top: 22px; }
     .navegacion-inicio .barra-superior-universidad .fa {
       margin: 20px 0px; }
     .navegacion-inicio .barra-superior-universidad .fa-home:before {
@@ -5688,8 +5689,11 @@ p {
 .nav-vertical {
   position: fixed;
   float: left;
-  top: 23.7%;
-  width: 8%; }
+  top: 166px;
+  width: 104px;
+  background-color: white; }
+  .nav-vertical ul li {
+    margin-top: 0px; }
   .nav-vertical .iconos-laterales {
     border-bottom: 1px solid gray;
     border-radius: 0px; }
@@ -5700,5 +5704,18 @@ p {
     .nav-vertical .iconos-laterales p {
       text-align: center;
       font-size: 10px; }
+
+.informes .informes-intro {
+  margin-right: 0px;
+  padding-top: 208px;
+  background: #f4f3f5; }
+.informes .col-md-5.informes-contenido h2,
+.informes .col-md-2.informes-contenido h2 {
+  font-size: 18px;
+  color: gray; }
+
+hr {
+  position: relative;
+  width: 94%; }
 
 /*# sourceMappingURL=main.css.map */

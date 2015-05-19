@@ -24,9 +24,9 @@ p{
 			border-bottom: 1px solid gray;
 		}
 			.navbar-header.barra-menu-inicio-2{
-				width: 90%;
+				width: 92%;
 				border-bottom: 1px solid gray;
-  				margin-left: 22px;
+  				// margin-left: 22px;
   				background-color: rgb(244, 243, 245);
 				p{
 					text-align: center;
@@ -42,10 +42,13 @@ p{
 					a img{
 						border-radius: 50%;
 						width: 22%;
-						border: 5px solid red;
+						border: 6px solid white;
+					  	margin-top: 12px;
+
 					}
 					p{
 						font-size: 40px;
+						margin-top: 22px;
 					}
 				}		
 						
@@ -74,12 +77,7 @@ p{
 		}
 		.iconos-principales-nav{
 			width: 90%;
-		 // 	.border-bottom{
-		 // 		border-bottom: 1px solid gray;
-  	// 			width: 87%;
-  	// 			left: 126px;
-  	// 			position: relative;
-		 // }
+
 		}
 	}
 	.barra-horizontal{
@@ -92,8 +90,14 @@ p{
 .nav-vertical{
 	position: fixed;
 	float:	left;
-	top:23.7%;
-	width:8%;
+	top:166px;
+	width:104px;
+	background-color:white;
+	ul{
+		li{
+			margin-top: 0px;
+		}
+	}
 	.iconos-laterales{
 		border-bottom: 1px solid gray;
   		border-radius: 0px;
@@ -107,5 +111,40 @@ p{
 			font-size: 10px;
 		}
 	}
+}
+
+.informes{
+	.informes-intro{
+		margin-right: 0px;
+		padding-top: 208px;
+  		background: #f4f3f5;
+	}
+
+	.col-md-5.informes-contenido,
+	.col-md-2.informes-contenido{
+		// margin-top: 18%;
+		h2{
+			font-size: 18px;
+			color:gray;
+		}
+		
+	}
+
+
+}
+
+// .border-bottom{
+// 	width:50%;
+// 	border:px solid gray;
+// }
+	
+hr{
+	// top: -7px;
+  	position: relative;
+  	width: 94%;
+  // 	  margin-top: 0px;
+  // margin-bottom: 0px;
+  // border:none;
+  // border-top:2px;
 }
 
