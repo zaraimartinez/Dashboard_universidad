@@ -171,7 +171,7 @@ p{
 .informes{
 	.informes-intro{
 		margin-right: 0px;
-		padding-top: 208px;
+		padding-top: 195px;
   		background: #f4f3f5;
   		// .informes-contenido{
   		// 	p{
@@ -345,18 +345,48 @@ p{
 	  color: gray;
 }
 }
-// .border-bottom{
-// 	width:50%;
-// 	border:px solid gray;
-// }
+.contenio-nota{
+	text-align:center;
+	padding:0px;
+}
+.row.eye-hover{
 	
-hr{
-	// top: -7px;
-  	position: relative;
-  	width: 94%;
-  // 	  margin-top: 0px;
-  // margin-bottom: 0px;
-  // border:none;
-  // border-top:2px;
+}
+.icon-nota{
+	text-align:center;
+	h4{
+		font-size: 16px;
+		font-weight: bold;
+	}
+		span{
+			font-size: 6px;
+		}
+}
+.icon-nota-contenido{
+	padding-left: 0px;
+  padding-right: 0px; 
 }
 
+.informes-contenido .horario .horario-content .horario-content-info {
+  top: 5px;
+ 
+  line-height: 27px;
+ } 
+.col-md-12.horario-content-am{
+	margin-bottom:10px;
+}
+.glyphicon-menu-right:before {
+	content: "\e258";
+	border-radius: 50%;
+	background-color: rgb(29, 108, 199);
+	color: white;
+	padding: 4px;
+	margin-right: 12px;
+
+}
+
+a.glyphicon.glyphicon-menu-right{
+	text-decoration:none;
+	margin-top:12px;
+	margin-bottom: 14px;
+}

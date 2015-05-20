@@ -5750,7 +5750,7 @@ p {
 
 .informes .informes-intro {
   margin-right: 0px;
-  padding-top: 208px;
+  padding-top: 195px;
   background: #f4f3f5; }
   .informes .informes-intro .row.boleta {
     margin-left: 0px;
@@ -5862,8 +5862,40 @@ p {
     font-size: 30px;
     color: gray; }
 
-hr {
-  position: relative;
-  width: 94%; }
+.contenio-nota {
+  text-align: center;
+  padding: 0px; }
+
+.icon-nota {
+  text-align: center; }
+  .icon-nota h4 {
+    font-size: 16px;
+    font-weight: bold; }
+  .icon-nota span {
+    font-size: 6px; }
+
+.icon-nota-contenido {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.informes-contenido .horario .horario-content .horario-content-info {
+  top: 5px;
+  line-height: 27px; }
+
+.col-md-12.horario-content-am {
+  margin-bottom: 10px; }
+
+.glyphicon-menu-right:before {
+  content: "\e258";
+  border-radius: 50%;
+  background-color: #1d6cc7;
+  color: white;
+  padding: 4px;
+  margin-right: 12px; }
+
+a.glyphicon.glyphicon-menu-right {
+  text-decoration: none;
+  margin-top: 12px;
+  margin-bottom: 14px; }
 
 /*# sourceMappingURL=main.css.map */
