@@ -19,13 +19,16 @@ p{
 	z-index: 10;
 	.barra-superior-universidad{
 		padding: 0px;
+		.fa{
+			text-decoration: none;
+			}
 		.barra-menu-inicio{
-			width: 8%;
+			width: 6.8%;
 			text-align: center;
 			border-bottom: 1px solid gray;
 		}
 			.navbar-header.barra-menu-inicio-2{
-				width: 92%;
+				width: 93.2%;
 				border-bottom: 1px solid gray;
   				// margin-left: 22px;
   				background-color: rgb(244, 243, 245);
@@ -40,12 +43,15 @@ p{
 			  	}
 				.content-group{
 					width: 33%;
-					a img{
-						border-radius: 50%;
-						width: 22%;
-						border: 6px solid white;
-					  	margin-top: 12px;
+					a{
+						margin-top: 6px;
+						img{
+							border-radius: 50%;
+							width: 22%;
+							border: 6px solid white;
+						  	margin-top: 12px;
 
+						}
 					}
 					p{
 						font-size: 40px;
@@ -61,11 +67,11 @@ p{
 					content: "\f015";
 					color: gray;
 					font-size: 50px;
-					padding: 0px 30px;
+					padding: 0px 20px;
 			}
 		.barra-menu{
 			width: 5%;
-			margin: 0px 35px;
+			margin: 0px 19px;
 		}
 			a{
 				img{
@@ -92,13 +98,13 @@ p{
 	position: fixed;
 	float:	left;
 	top:166px;
-	width:103px;
+	width:88px;
 	background-color:white;
 		.fa-home:before {
 	 		 content: "\f015";
 	  		color: gray;
 	  		font-size: 50px;
-	  		padding: 0px 16px;
+	  		padding: 0px 6px;
 	}
 	ul{
 		li{
@@ -131,6 +137,13 @@ p{
   		// 		font-size:12px;
   		// 	}
   		// }
+  		.row.boleta{
+  			margin-left: 0px;
+			margin-right: 0px;
+  		}
+  		.row.cursos{
+  			//margin-right: 0px;
+  		}
   		.campos-informes{
   			background-color: rgb(124, 124, 124);
   			margin-left: 0px;
@@ -145,7 +158,7 @@ p{
 	}
 	.col-md-4.informes-contenido{
 		//padding-right: 0px; 
-  		left: 10px;
+  		//left: 10px;
   		// p{
   		// 	font-size: 20px;
   		// }
@@ -215,6 +228,69 @@ p{
 		  		}
 		  	}
 		}
+		.horario-content-3{
+			margin-left: 0px; 
+  			margin-right: 0px;
+		  	//border-bottom: 1px solid rgb(225, 225, 225);
+		}	
+	}
+	.horario-3{
+		background-color:white;
+		margin-bottom: 6px;
+		.horario-content{
+			margin-left: 0px; 
+  			margin-right: 0px;
+		  	border-bottom: 1px solid rgb(225, 225, 225);
+		  	.horario-content-am{
+		  		top:5px;
+		  		border-right:1px solid rgb(225, 225, 225);
+		  		line-height: 27px;
+		  		p{
+		  			font-size: 12px;
+		  			margin:0px;
+		  			text-align: center;
+		  		}
+		  	}
+		  	.horario-content-am-salon{
+		  		top:5px;
+		  		border-left:1px solid rgb(225, 225, 225);
+				line-height: 27px;
+		  		p{
+		  			font-size: 12px;
+		  			margin:0px;
+		  			text-align: center;
+		  		}
+		  	}
+		  	.horario-content-proceso{
+		  		p{
+		  			margin:0px;
+		  			padding: 5px 0px 5px;
+		  		}
+		  	}
+		  	.horario-content-am-space{
+		  		height: 37px;
+		  	}
+		  	.col-md-6.horario-content-am-p{
+		  		top:5px;
+		  		p{
+		  			border-right:1px solid rgb(225, 225, 225);
+		  		}
+		  	}
+		  	.horario-content-am-s{
+		  		top:10px;
+		  		p{
+			  		font-size: 12px;
+	  				margin: 0px;
+	  				text-align: center;
+		  			
+		  		}
+		  	}
+		}
+		.horario-content-3{
+			margin-left: 0px; 
+  			margin-right: 0px;
+		  	//border-bottom: 1px solid rgb(225, 225, 225);
+		}	
 	}
 
 }
