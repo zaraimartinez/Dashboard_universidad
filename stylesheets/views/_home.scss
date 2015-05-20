@@ -93,7 +93,20 @@ p{
 		}
 	}
 }
-
+.nav-pills > li > a{
+	text-align:center;
+}
+.glyphicon-file{
+	color:gray;
+}
+.glyphicon-file:before{
+	font-size:38px;
+	
+}
+.glyphicon-file:hover{
+	color:rgb(219, 14, 14);
+	transition:0.5s ease-in-out;
+}
 .nav-vertical{
 	position: fixed;
 	float:	left;
@@ -101,11 +114,16 @@ p{
 	width:88px;
 	background-color:white;
 		.fa-home:before {
-	 		 content: "\f015";
+	 		content: "\f015";
 	  		color: gray;
 	  		font-size: 50px;
 	  		padding: 0px 6px;
+	  		& :hover{
+	  			color:red;
+	  		}
 	}
+
+
 	ul{
 		li{
 			margin-top: 0px;
@@ -127,6 +145,29 @@ p{
 	}
 }
 
+
+.drop-menu{
+	background-color:white;
+	width:45%;
+	list-style:none;
+	padding:0px;
+
+	margin-left: 35%;
+  	margin-top: 16px;
+	li{
+		border-bottom:1px solid gray;
+		padding:10px;
+		a{
+			color:gray;
+			text-decoration: none;
+		}
+	}
+
+}
+	.drop-menu-li li:hover{
+		background-color:white;
+		color:white;
+	}
 .informes{
 	.informes-intro{
 		margin-right: 0px;
@@ -294,8 +335,16 @@ p{
 	}
 
 }
-
-
+.eye.col-md-12{
+	text-align:center;
+	background-color: white;
+  	padding: 20px;
+	.fa-eye:before {
+	  content: "\f06e";
+	  font-size: 30px;
+	  color: gray;
+}
+}
 // .border-bottom{
 // 	width:50%;
 // 	border:px solid gray;

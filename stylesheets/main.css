@@ -5691,6 +5691,19 @@ p {
   .navegacion-inicio .barra-horizontal img {
     width: 110%; }
 
+.nav-pills > li > a {
+  text-align: center; }
+
+.glyphicon-file {
+  color: gray; }
+
+.glyphicon-file:before {
+  font-size: 38px; }
+
+.glyphicon-file:hover {
+  color: #db0e0e;
+  transition: 0.5s ease-in-out; }
+
 .nav-vertical {
   position: fixed;
   float: left;
@@ -5702,6 +5715,8 @@ p {
     color: gray;
     font-size: 50px;
     padding: 0px 6px; }
+    .nav-vertical .fa-home:before :hover {
+      color: red; }
   .nav-vertical ul li {
     margin-top: 0px; }
   .nav-vertical .iconos-laterales {
@@ -5714,6 +5729,24 @@ p {
     .nav-vertical .iconos-laterales p {
       text-align: center;
       font-size: 10px; }
+
+.drop-menu {
+  background-color: white;
+  width: 45%;
+  list-style: none;
+  padding: 0px;
+  margin-left: 35%;
+  margin-top: 16px; }
+  .drop-menu li {
+    border-bottom: 1px solid gray;
+    padding: 10px; }
+    .drop-menu li a {
+      color: gray;
+      text-decoration: none; }
+
+.drop-menu-li li:hover {
+  background-color: white;
+  color: white; }
 
 .informes .informes-intro {
   margin-right: 0px;
@@ -5819,6 +5852,15 @@ p {
   .informes-contenido .horario-3 .horario-content-3 {
     margin-left: 0px;
     margin-right: 0px; }
+
+.eye.col-md-12 {
+  text-align: center;
+  background-color: white;
+  padding: 20px; }
+  .eye.col-md-12 .fa-eye:before {
+    content: "\f06e";
+    font-size: 30px;
+    color: gray; }
 
 hr {
   position: relative;
