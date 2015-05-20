@@ -2,7 +2,7 @@ html{
 	width:	100%;
 	height:100%;
 }
-ul, p {
+ul, p, h2{
 	font-family: 'Oswald', sans-serif;
 }
 p{
@@ -16,6 +16,7 @@ p{
 	border-color: transparent;
 	margin-bottom: 0px;
 	border-radius:0px;
+	z-index: 10;
 	.barra-superior-universidad{
 		padding: 0px;
 		.barra-menu-inicio{
@@ -143,8 +144,8 @@ p{
   		}
 	}
 	.col-md-4.informes-contenido{
-		padding-right: 0px; 
-  		left: 15px;
+		//padding-right: 0px; 
+  		left: 10px;
   		// p{
   		// 	font-size: 20px;
   		// }
@@ -159,6 +160,10 @@ p{
 		
 	}
 .informes-contenido{
+	h2{
+		font-size: 18px;
+		color: gray
+	}
 	.horario{
 		background-color:white;
 		.horario-content{
