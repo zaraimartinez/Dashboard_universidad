@@ -5670,8 +5670,7 @@ p {
             border: 6px solid white;
             margin-top: 12px; }
             .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group a img:hover {
-              border: 6px solid #1d6cc7;
-              transition: 1s ease-in-out; }
+              border: 6px solid #1d6cc7; }
         .navegacion-inicio .barra-superior-universidad .navbar-header.barra-menu-inicio-2 .content-group p {
           font-size: 40px;
           margin-top: 22px; }
@@ -5730,8 +5729,17 @@ p {
       display: block;
       margin: 0 auto; }
     .nav-vertical .iconos-laterales p {
-      text-align: center;
-      font-size: 10px; }
+      font-size: 10px;
+      text-align: center; }
+
+.img-girl {
+  position: relative; }
+
+.drop-menu-perfil {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  top: 96px; }
 
 .drop-menu {
   background-color: white;
@@ -5744,9 +5752,18 @@ p {
     z-index: 10;
     border-bottom: 1px solid gray;
     padding: 10px; }
+    .drop-menu li:hover {
+      background-color: gray;
+      color: white; }
     .drop-menu li a {
       color: gray;
       text-decoration: none; }
+      .drop-menu li a:hover {
+        color: white; }
+
+.li.drop-menu-li:hover {
+  background-color: gray;
+  color: white; }
 
 .drop-menu-li li:hover {
   background-color: white;
