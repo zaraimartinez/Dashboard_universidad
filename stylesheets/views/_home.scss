@@ -154,17 +154,22 @@ p{
 	z-index: 10;
   	position: absolute;
  	width: 100%;
-  	top: 96px;
+  	top: 27px;
+	.triangulo{
+		left: 64%;
+		color: white;
+		font-size: 30px;
+		top: 26px;	
+	}
 }
 .drop-menu{
-	
 	background-color:white;
 	width:45%;
 	list-style:none;
 	padding:0px;
-
 	margin-left: 35%;
   	margin-top: 16px;
+  	
 	li{
 		z-index:10;
 		border-bottom:1px solid gray;
@@ -176,9 +181,7 @@ p{
 		a{
 			color:gray;
 			text-decoration: none;
-			&:hover{
-				color:white;
-			}
+	
 		}
 	}
 
@@ -428,4 +431,16 @@ a.glyphicon.glyphicon-menu-right{
 }
 .section.informes{
 	background-color:red;
+}
+.col-md-6.open-eye{
+	text-align:center;
+	font-size:26px;
+}
+.open-eye{
+	img{
+		width: 18%;
+	}
+}
+.faltas, .promedios{
+	display:none;
 }

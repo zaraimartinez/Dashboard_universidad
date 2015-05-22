@@ -5739,7 +5739,12 @@ p {
   z-index: 10;
   position: absolute;
   width: 100%;
-  top: 96px; }
+  top: 27px; }
+  .drop-menu-perfil .triangulo {
+    left: 64%;
+    color: white;
+    font-size: 30px;
+    top: 26px; }
 
 .drop-menu {
   background-color: white;
@@ -5758,8 +5763,6 @@ p {
     .drop-menu li a {
       color: gray;
       text-decoration: none; }
-      .drop-menu li a:hover {
-        color: white; }
 
 .li.drop-menu-li:hover {
   background-color: gray;
@@ -5933,5 +5936,15 @@ a.glyphicon.glyphicon-menu-right {
 
 .section.informes {
   background-color: red; }
+
+.col-md-6.open-eye {
+  text-align: center;
+  font-size: 26px; }
+
+.open-eye img {
+  width: 18%; }
+
+.faltas, .promedios {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
